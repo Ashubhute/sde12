@@ -1,0 +1,34 @@
+.header{
+    width: 100%;
+    height:200px;
+    background-color: blueviolet;
+    margin bottom: 10px;
+    }
+.sidebar{
+    width: 20%;
+    height: 400px;
+    background-color: brown;
+    text-align: center;
+    float: left;
+    margin-bottom: 10px;
+}
+.section{
+    width: 70%;
+    height: 400px;
+    background-color: aquamarine;
+    float: right;
+    margin-bottom: 10px;
+    
+    
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: darkturquoise;
+    text-align: center;
+    clear: both;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}

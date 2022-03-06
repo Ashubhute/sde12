@@ -1,0 +1,35 @@
+*{
+    margin: 0.1%;
+    padding: 0%;
+    }
+ .header,.navbar,.footer{
+     background-color: blueviolet;
+     width: 100%;
+     height: 50px;
+     text-align: center;
+ }   
+ .footer{
+     overflow: auto;
+ }
+.main{
+    background-color: gold;
+    width: 40%;
+    height: 170px;
+    text-align: center;
+    float: left;
+    }
+    .article{
+        background-color: darkcyan;
+        width: 40%;
+        height: 170px;
+        text-align: center;
+        overflow: auto;
+        float: left;
+    }
+    .side{
+        background-color: lightcoral;
+        width: 19.4%;
+        height: 200px;
+        text-align: center;
+        float: right;
+    }
