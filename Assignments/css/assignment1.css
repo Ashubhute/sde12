@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.grid-container{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "header header header header"
+    "menu main main ad1" 
+    "menu main main ad1"
+    "ad2 main main ad1"
+    "footer footer footer footer";
+}
+.grid-item{
+    background-color: slateblue;
+    min-height: 100px;
+}
+.item1{
+    grid-area: Header;
+}
+.item2{
+    grid-area: Menu;
+}
+.item3{
+    grid-area: Ad2;
+}
+.item4{
+    grid-area: Main;
+}
+.item5{
+    grid-area: Ad1;
+}
+.item6{
+    grid-area: Footer;
+}
+
+
