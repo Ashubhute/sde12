@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    width: 100%;
+    margin: 5% 10%;
+    height: 100vh;
+    gap: 5px;
+    grid-template-areas: 
+    "header header header header header"
+    "navigation navigation navigation navigation navigation"
+    "content1 maincontent maincontent maincontent content2"
+    "content1 maincontent maincontent maincontent content2"
+    "content1 maincontent maincontent maincontent content2"
+    "footer footer footer footer footer";
+}
+.grid-item{
+    border: 1px solid black;
+}
+.item1{
+    grid-area: header;
+
+}
+.item2{
+    grid-area: navigation;
+    
+}
+.item3{
+    grid-area: content1;
+    
+}
+.item4{
+    grid-area: maincontent;
+    
+}
+.item5{
+    grid-area: content2;
+
+}
+.item6{
+    grid-area: footer;
+    
+}
