@@ -1,0 +1,16 @@
+<div class="container-fluid">
+<div class="container mt-5">
+ <h1 class="display-15 mb-4"><b>Forgot Password</b></h1>
+ <form [formGroup]="fgot" (submit)="got()">
+    Email:<input [(ngModel)]="email" type="text" name="email" formControlName="email" class="col form-control" ><br>
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col mb-4 ">
+     <button type="text" (click)="got()" class="btn btn-primary">Submit</button>
+     </div>
+     
+  </div>
+    
+ </form>
+</div>
+</div>

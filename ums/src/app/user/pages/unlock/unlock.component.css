@@ -1,0 +1,22 @@
+.container{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+    border-radius: 0.8rem;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin-top: 20px;
+    position: relative;
+    
+    top: 80px;
+}
+.btn{
+    height:35px ;
+    width: 300px;
+    
+    margin-top: 10px;
+}
+.container-fluid{
+    height:800px ;
+    width:1366px ;
+    background-image: url("https://d3nn873nee648n.cloudfront.net/900x600/3410/20-SM111378.jpg");
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    
+    height: 650px;
+    width:425px;
+
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(163, 180, 180, 0.3);
+     box-shadow: 2px 2px 15px rgba(0,0, 0, 0.3);
+     right: 300px;
+    position: relative;
+    left: 450px;
+    top: 50px;
+}
+
+
+
+
+
+.registration{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+
+    color: gray;
+}
+.container-fluid{
+    height:800px ;
+    width:1366px ;
+    background-image: url("https://d3nn873nee648n.cloudfront.net/900x600/11935/1-CG366333.jpg");
+    
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+}
+.btn-1{
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+  

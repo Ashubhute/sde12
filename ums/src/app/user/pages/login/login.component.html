@@ -1,0 +1,45 @@
+<div class="card">
+    <div class="container-fluid">
+    <div class="container">
+        
+       <h6><b class="box-1 d-flex justify-content-center">CAREER INFOTECH</b></h6>
+        <h3 class="login">Login</h3>
+        {{msg}}
+         <div class="row d-flex justify-content-center">
+            <div class="col-7">
+                <form class="row-3" [formGroup]="loginform" (submit)="userlogin()">
+                    <div class="col-8">
+                        <label for="validationServer01" class="form-label">email</label>
+                        <input type="text" name="email" formControlName="email" class="form-control is valid" id="validationServer01" value="" required>
+                        <small *ngIf="loginform.get('email').invalid && loginform.get('email').touched" class="text-danger">Please enter a valid email</small>
+                    </div>
+                    <!-- {{demo}} -->
+                    <div class="col-8">
+                        <label for="validationServer02" class="form-label">passsword</label>
+                        <input type="text" name="pwd" formControlName="pwd" class="form-control" id="validationServe02" value="" required >
+                        <small *ngIf="loginform.get('pwd').valid && loginform.get('pwd').touched" class="text-danger">Please enter a valid password</small>
+                        
+                    </div>
+                    
+                    <div class="btn">
+                        <button class="btn btn-primary" (click)="userlogin()" type="submit">Login</button>
+                      </div>
+     
+                      
+    
+                      <a class="pass" href="">Forget Password</a>
+                      <a class="reg" routerLink="registration" href="registration">Registrtion</a>
+                    </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+<div class="container-fluid">
+<div class="container mt-4">
+<h1><b>Unlock Account</b></h1>
+  <form [formGroup]="unlk" (submit)="unlock()">
+
+Email ID :<input type="text" name="email" formControlName="email"  class="form-control" value="" required>
+Temporary Pwd : <input type="text" name="tempPwd" formControlName="tempPwd" class="form-control" > 
+Choose New Pwd:<input type="text" name="newPwd" formControlName="newPwd"    class="form-control" >
+ Confirm Pwd: <input type="text" name="confirmPwd" formControlName="confirmPwd" class="form-control" >
+ <div class="btn">
+ <button class="btn btn-primary" (click)="unlock()" type="submit" >Submit</button>
+ </div>
+</form>
+</div>
+</div>

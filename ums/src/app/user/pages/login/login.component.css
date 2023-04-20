@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+     background-color: white; 
+    height: 450px;
+    width:425px;
+    margin-top: 10px;
+    
+
+    /* font-size: 35px; */
+    border-radius: 10px;
+    border: 1px solid rgba(163, 180, 180, 0.3);
+     box-shadow: 2px 2px 15px rgba(0,0, 0, 0.3);
+     color: rgb(247, 241, 241);
+    position: relative;
+    left: 450px;
+    top: 80px;
+    
+    
+
+}
+
+.container-fluid{
+    background-image: url('https://d3nn873nee648n.cloudfront.net/900x600/19460/220-ES932486.jpg');
+    height: 650px;
+    width: 1366px;
+    background-repeat: repeat;
+    
+   /* background-color: azure; */
+    
+    
+}
+
+input{
+    height: 35px;
+    width: 250px;
+    border-radius: 9px;
+    padding-right: 30px;
+    color: black;
+    padding-left: 15px;
+}
+
+label{
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    color: black;
+    
+    
+}
+
+.btn{
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.pass{
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: lighter;
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+
+.reg{
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size: large;
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+
+.login{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    text-decoration: underline;
+    color: gray;
+}
+
+.box-1{
+    text-align: center;
+    color:blue;
+    font-size: larger;
+    margin-top: 20px;
+}
+.box-2{
+    
+    
+    color: blue;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    margin-top: 5px;
+    
+    
+}
+.lop{
+       color: forestgreen;
+}
+
+/* .text{
+    font-size: 80px;
+} */
+

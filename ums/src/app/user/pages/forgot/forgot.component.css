@@ -1,0 +1,15 @@
+.container{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+    border-radius: 0.8rem;
+    width: 350px;
+    background-color: white;
+    margin-top: 20px;
+    position: relative;
+    right: 60px;
+    top: 200px;
+}
+.container-fluid{
+    height:900px ;
+    width:1366px ;
+    background-image: url("https://d3nn873nee648n.cloudfront.net/900x600/8536/18-SM216690.jpg");
+}
